@@ -6,7 +6,7 @@ import os
 
 class SimpleDatasetLoader:
 
-    def __init__(self, preprocessors = None):
+    def __init__(self, preprocessors=None):
         # store the image preprocessors
         self.preprocessors = preprocessors
 
